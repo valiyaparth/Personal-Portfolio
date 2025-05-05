@@ -1,0 +1,53 @@
+
+nav{
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  padding-inline: 25px;
+  padding-block: 5px;
+  color: #273232;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 15px;
+  white-space: nowrap;
+  max-width: 90vw;
+  z-index: 1000;
+}
+
+h2{
+  line-height: 50px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+nav ul{
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+nav .btn a{
+  text-decoration: none;
+  color: #273232;
+  background-color: #FFD166;
+  padding: 9px;
+  border-radius: 10px;
+  cursor: pointer;
+  &:hover{
+    background-color: #E6B84F;
+    transform: scale(1.03);
+  }
+}
+
+nav li{
+  list-style: none;
+  line-height: 50px;
+}
+

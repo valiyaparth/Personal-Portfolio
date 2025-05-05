@@ -1,0 +1,13 @@
+app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main{
+  flex: 1;
+  padding-inline: 50px;
+  padding-block: 10px;
+  color: #2B2B2B;
+  margin-top: 70px;
+}

@@ -1,0 +1,50 @@
+footer{
+  padding-inline: 50px;
+  padding-block: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  /*text-align: center;*/
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: #2b2b2b;
+  font-size: small;
+}
+
+.back-to-top{
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  text-align: center;
+  cursor: pointer;
+  padding-block: 10px;
+}
+
+.socials{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.icon-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  color: #25A6AA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s, color 0.2s;
+}
+
+.icon-button:hover {
+  background: rgba(255, 209, 102, 0.51);
+  color: #1C7E81;
+}
+
+.copyright{
+  display: flex;
+  justify-content: center;
+}
