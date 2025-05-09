@@ -120,20 +120,7 @@
   row-gap: 10px;
 }
 
-/*.skill-card{*/
-/*  border: none;*/
-/*  border-radius: 20px;*/
-/*  box-shadow: 2px 2px 4px rgba(48, 48, 48, 0.88), -2px -2px 4px rgba(6, 89, 85, 0.88);*/
-/*  display: inline-block;*/
-/*  position: relative;*/
-/*  height: 120px;*/
-/*  width: 200px;*/
-/*  background-color: rgba(255, 255, 255, 0.3);*/
-/*  backdrop-filter: blur(10px);*/
-/*  cursor: pointer;*/
-/*}*/
-
-.skill-card-2{
+.skill-card{
   border: none;
   border-radius: 50%;
   box-shadow: 2px 2px 4px rgba(48, 48, 48, 0.88), -2px -2px 4px rgba(6, 89, 85, 0.88);
@@ -146,7 +133,7 @@
   cursor: pointer;
 }
 
-.skill-card-2 img{
+.skill-card img{
   width: 80px;
   height: 80px;
   position: absolute;
@@ -156,40 +143,6 @@
   transition: ease-in-out 0.4s;
 }
 
-.skill-name{
-  position: absolute;
-  color: rgba(0, 0, 0, 0.63);
-  left: 20px;
-  bottom: 20px;
-  z-index: 0;
-  font-weight: bold;
-  font-size: 60px;
-  transition: ease-in-out 0.4s;
-}
-
-.js{
-  position: absolute;
-  color: rgba(0, 0, 0, 0.63);
-  left: 20px;
-  bottom: 20px;
-  z-index: 0;
-  font-weight: bold;
-  font-size: 30px;
-  transition: ease-in-out 0.4s;
-}
-
-.skill-card:hover .skill-name{
-  z-index: 100;
-  transform: scale(1.1);
-  color: rgba(6, 85, 120, 0.9);
-}
-
-.skill-card:hover .js{
-  z-index: 100;
-  transform: scale(1.1);
-  color: rgba(188, 179, 77, 0.9);
-}
-
-.skill-card-2:hover img{
+.skill-card:hover img{
   transform: scale(0.9);
 }
