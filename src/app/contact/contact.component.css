@@ -1,0 +1,55 @@
+.contact-heading{
+  color: #273232;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.contact-form{
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  border: none;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgba(48, 48, 48, 0.88), -2px -2px 4px rgba(6, 89, 85, 0.88);
+  padding: 30px;
+  margin-inline: auto;
+  margin-block: 40px;
+}
+
+label{
+  display: block;
+  margin: 10px 0 10px 0;
+  font-weight: bold;
+  color: #273232;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+input{
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: transparent;
+  box-shadow: 2px 2px 2px rgba(172, 171, 171, 0.71), -2px -2px 2px rgba(82, 182, 178, 0.7);
+}
+input:focus{
+  border: rgba(4, 73, 99, 0.8) 1px solid;
+}
+
+textarea{
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: transparent;
+  box-shadow: 2px 2px 2px rgba(172, 171, 171, 0.71), -2px -2px 2px rgba(82, 182, 178, 0.7);
+  &:focus{
+    border: rgba(4, 73, 99, 0.8) 1px solid;
+  }
+}
+

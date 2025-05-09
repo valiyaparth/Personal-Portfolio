@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-  background: linear-gradient(120deg, #62cdcf 0%, #baf1f3 100%);
+  background: linear-gradient(120deg, rgba(98, 205, 207, 0.69) 0%, rgba(186, 241, 243, 0.75) 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: "Poppins", sans-serif;
